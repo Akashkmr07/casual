@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+body {
+    margin-top: 3rem;
+    background-color: pink;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#img-container,
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Love Light', cursive;
+    font-size: 2rem;
+}
+
+button {
+    z-index: 3;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+}
+
+#option-btns {
+    display: flex;
+    gap: 2.5rem;
+}
